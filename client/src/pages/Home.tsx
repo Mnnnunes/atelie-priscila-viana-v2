@@ -170,14 +170,6 @@ export default function Home() {
               <div className="hero-note"><span className="note-dot" /> Encomendas para momentos que pedem algo especial</div>
             </div>
 
-            <div className="hero-visual reveal-scale">
-              <div className="hero-image-frame">
-                <ImageWithFallback src="/manus-storage/atelie-hero_2dc48b02.jpg" alt="Bolo delicado decorado com flores em cenário editorial" className="hero-image" />
-                <div className="hero-image-wash" />
-                <div className="hero-stamp"><span>Feito</span><strong>com<br />afeto</strong><span className="stamp-star">✦</span></div>
-              </div>
-              <div className="hero-caption"><span>01 / 04</span><span>um detalhe de cada vez</span></div>
-            </div>
           </div>
           <a className="scroll-cue" href="#sobre" aria-label="Rolar para a seção sobre"><span>role para descobrir</span><ArrowDownRight size={15} /></a>
         </section>
