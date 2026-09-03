@@ -150,8 +150,8 @@ export default function Home() {
 
       <main>
         <section className="hero" id="inicio">
-          <video className="hero-video" autoPlay muted loop playsInline preload="metadata" poster="/manus-storage/atelie-hero_2dc48b02.jpg" aria-hidden="true">
-            <source src="/manus-storage/Animate_all_image_elements_202609031329_79446c50.mp4" type="video/mp4" />
+          <video className="hero-video" autoPlay muted loop playsInline preload="metadata" poster="https://files.manuscdn.com/user_upload_by_module/session_file/310519663911480749/CZNqthQhXOVuwEBu.jpg" aria-hidden="true">
+            <source src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663911480749/ISBXTJlJFLosiPnl.mp4" type="video/mp4" />
           </video>
           <div className="hero-video-overlay" />
           <div className="hero-orb hero-orb-one" />
