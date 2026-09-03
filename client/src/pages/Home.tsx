@@ -150,7 +150,22 @@ export default function Home() {
 
       <main>
         <section className="hero" id="inicio">
-          <video className="hero-video" autoPlay muted loop playsInline preload="metadata" poster="https://files.manuscdn.com/user_upload_by_module/session_file/310519663911480749/CZNqthQhXOVuwEBu.jpg" aria-hidden="true">
+          <video
+            className="hero-video"
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="auto"
+            controls={false}
+            disablePictureInPicture
+            tabIndex={-1}
+            aria-hidden="true"
+            onLoadedMetadata={(event) => {
+              event.currentTarget.muted = true;
+              void event.currentTarget.play().catch(() => undefined);
+            }}
+          >
             <source src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663911480749/ISBXTJlJFLosiPnl.mp4" type="video/mp4" />
           </video>
           <div className="hero-video-overlay" />
