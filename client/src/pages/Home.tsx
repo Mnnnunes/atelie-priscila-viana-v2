@@ -126,7 +126,7 @@ export default function Home() {
       <header className="site-header">
         <div className="container header-inner">
           <a className="brand" href="#inicio" onClick={closeMobile} aria-label="Ateliê Priscila Viana — início">
-            <span className="brand-mark">PV</span>
+            <img className="brand-mark" src="/logo-pv.jpg" alt="" />
             <span className="brand-name">
               Ateliê <strong>Priscila Viana</strong>
             </span>
@@ -206,7 +206,7 @@ export default function Home() {
               <a className="text-link" href={INSTAGRAM} target="_blank" rel="noreferrer">Conhecer nosso Instagram <ArrowUpRight size={17} /></a>
             </div>
             <div className="about-card">
-              <div className="about-card-top"><span className="mini-monogram">PV</span><span>Ateliê<br />Priscila Viana</span></div>
+              <div className="about-card-top"><img className="mini-monogram" src="/logo-pv.jpg" alt="" /><span>Ateliê<br />Priscila Viana</span></div>
               <div className="about-card-quote">“Doces que criam memórias”</div>
               <div className="about-card-bottom"><span>Confeitaria artesanal</span><span>♡</span></div>
             </div>
@@ -290,7 +290,7 @@ export default function Home() {
 
       <footer className="site-footer">
         <div className="container footer-main">
-          <a className="brand footer-brand" href="#inicio"><span className="brand-mark">PV</span><span className="brand-name">Ateliê <strong>Priscila Viana</strong></span></a>
+          <a className="brand footer-brand" href="#inicio"><img className="brand-mark" src="/logo-pv.jpg" alt="" /><span className="brand-name">Ateliê <strong>Priscila Viana</strong></span></a>
           <p>Confeitaria artesanal para<br />momentos que merecem sabor.</p>
           <div className="footer-links"><a href={INSTAGRAM} target="_blank" rel="noreferrer"><Instagram size={16} /> @ateliepriscilaviana</a><a href={WHATSAPP} target="_blank" rel="noreferrer"><MessageCircle size={16} /> (11) 94370-2370</a></div>
         </div>
